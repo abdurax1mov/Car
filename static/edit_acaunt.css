@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    width: 1900px;
+    height: 955px;
+    background-image: url("../static/img/11d7b060764625.5a58141c532b0.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ko1 {
+    width: 600px;
+    height: 650px;
+    border: 4px yellow solid;
+    border-radius: 20px;
+    background-color: rgba(0, 16, 61, 0.16);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    border: 2px yellow solid;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.text {
+    width: 300px;
+    height: 40px;
+    background-color: #00103D;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.bu {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:blue;
+}
+
+.from{
+    display: flex;
+    height: 630px ;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.edit {
+    width: 150px;
+    height: 30px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    background-color: #00103D;
+    color: yellow;
+
+}
+
+.delete {
+    width: 45px;
+    height: 35px;
+    position: absolute;
+    background-image: url("../static/img/user-slash-solid.svg");
+    background-size: cover;
+    top: 30px;
+    left: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
+}
+
+.chi {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 25px;
+    top: 190px;
+}
+
+.chi1 {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 25px;
+    top: 190px;
+}
+
+.chi2 {
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 55px;
+    top: 20px;
+}
+
+.chi4 {
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 55px;
+    bottom: 250px;
+}
+
+.chi5 {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 23px;
+    top: 314px;
+}
+
+.chi6 {
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 53px;
+    top: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chi7 {
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 53px;
+    bottom: 250px;
+}
+.bx{
+    width: 35px;
+    height: 40px;
+    background-image: url("../static/img/xmark-solid.svg");
+    background-size: cover;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}

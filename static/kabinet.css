@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,375&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body_bosh {
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav {
+    width: 100%;
+    height: 170px;
+    background-color: #00103D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.model {
+    width: 200px;
+    border: 2px yellow solid;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avto {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.kab {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/user-tie-solid.svg");
+    background-size: cover;
+}
+
+.kor {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/korzinka.svg");
+    background-size: cover;
+}
+
+.bren {
+    width: 50px;
+    height: 55px;
+    background-image: url("../static/img/brend.svg");
+    background-size: cover;
+}
+
+.gazalkent {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.a {
+    width: 250px;
+    height: 130px;
+    background-image: url("../static/img/bHiG8sE7E0Y-removebg-preview 1.png");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.av {
+    width: 100px;
+    height: 40px;
+    left: -5px;
+    top: 15px;
+    position: absolute;
+    background-image: url("../static/img/Avto.png");
+    background-size: cover;
+}
+
+.mo {
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
+.g {
+    width: 180px;
+    height: 40px;
+    background-image: url("../static/img/Gazalkent.png");
+    background-size: cover;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.infor {
+    color: yellow;
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: Cambria
+}
+
+.fon {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/phone-solid.svg");
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+
+.fo {
+    color: yellow;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -2px;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+.ema {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/emal.svg");
+    background-size: cover;
+    right: 470px;
+    top: 250px;
+}
+
+.avt {
+    color: yellow;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.chi {
+    width: 1500px;
+    height: 2px;
+    position: absolute;
+    margin-left: 200px;
+    bottom: 80px;
+    background-color: yellow;
+}
+
+.icon {
+    width: 350px;
+    height: 58px;
+    position: absolute;
+    bottom: 15px;
+    margin-left: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tv {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/twitter.svg");
+    background-size: cover;
+}
+
+.ins {
+    width: 50px;
+    height: 55px;
+    background-image: url("../static/img/instagram.svg");
+    background-size: cover;
+}
+
+.tik {
+    width: 50px;
+    height: 57px;
+    background-image: url("../static/img/tiktok.svg");
+    background-size: cover;
+}
+
+.tel {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/telegram.svg");
+    background-size: cover;
+}
+
+.section1 {
+    width: 1900px;
+    height: 1000px;
+    background-image: url("../static/img/11d7b060764625.5a58141c532b0.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ko1 {
+    width: 600px;
+    height: 630px;
+    border: 4px yellow solid;
+    border-radius: 20px;
+    background-color: rgba(0, 16, 61, 0.16);
+    position: relative;
+}
+
+.gazalkent2 {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.av1 {
+    width: 70px;
+    height: 27px;
+    left: 10px;
+    top: 15px;
+    position: absolute;
+    background-image: url("../static/img/Avto.png");
+    background-size: cover;
+}
+
+.a1 {
+    width: 200px;
+    height: 90px;
+    background-image: url("../static/img/bHiG8sE7E0Y-removebg-preview 1.png");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.g1 {
+    width: 120px;
+    height: 27px;
+    background-image: url("../static/img/Gazalkent.png");
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+
+.edit {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 105px;
+    top: 35px;
+    background-image: url("../static/img/user-tie-solid.svg");
+    background-size: cover;
+}
+
+.login {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    background-image: url("../static/img/chiqish.svg");
+    background-size: cover;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    border: 2px yellow solid;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 125px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.text1 {
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    bottom: 80px;
+    left: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    bottom: 45px;
+    left: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tex {
+    font-family: Cambria;
+    font-size: 25px;
+    color: yellow;
+}
+
+.chi1 {
+    width: 550px;
+    height: 3px;
+    background-color: yellow;
+    left: 25px;
+    position: absolute;
+    bottom: 30px;
+}
+.chi2{
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 25px;
+    top: 314px;
+}
+.chi3{
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 55px;
+    top: 250px;
+}
+.chi4{
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    left: 55px;
+    bottom: 250px;
+}
+.chi5{
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 23px;
+    top: 314px;
+}
+.chi6{
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 53px;
+    top: 250px;
+}
+a{
+    text-decoration: none;
+}
+.chi7{
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    position: absolute;
+    right: 53px;
+    bottom: 250px;
+}

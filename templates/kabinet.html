@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/kabinet.css">
+    <link rel="stylesheet" href="../static/animate/animate.min.css">
+</head>
+<body>
+<div class="body_bosh">
+    <nav>
+        <div class="nav">
+            <a href="{{ url_for("models") }}">
+                <div class="model">
+                    <h1 class="mo">Models</h1>
+                </div>
+            </a>
+            <a href="{{ url_for("cars77") }}">
+                <div class="model">
+                    <h1 class="mo">Cars</h1>
+                </div>
+            </a>
+
+            <div class="gazalkent animate__animated animate__tada">
+                <h1 class="av"></h1>
+                <div class="a"></div>
+                <div class="g"></div>
+            </div>
+            <a href="{{ url_for("dealers") }}">
+                <div class="model">
+                    <h1 class="mo">Dealers</h1>
+                </div>
+            </a>
+
+            <div class="avto">
+                <a href="{{ url_for("korzinka") }}">
+                    <div class="kor"></div>
+                </a>
+                <a href="{{ url_for("brand") }}">
+                    <div class="bren"></div>
+                </a>
+                <a href="{{ url_for("kobinet") }}">
+                    <div class="kab"></div>
+                </a>
+
+
+            </div>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="ko1 animate__animated animate__zoomIn wow">
+            <div class="gazalkent2">
+                <h1 class="av1"></h1>
+                <div class="a1"></div>
+                <div class="g1"></div>
+            </div>
+            <a href="{{ url_for("user_edit", user_id=user.id) }}">
+                 <div class="edit"></div>
+            </a>
+
+            <a href="{{ url_for("login") }}">
+                <div class="login"></div>
+            </a>
+            <div class="img">
+                <img width="100%" height="100%" src="{{ user.img }}" alt="">
+            </div>
+            <div class="text1"><h1 class="tex">{{ user.name }}</h1></div>
+            <div class="text2"><h1 class="tex">{{ user.surname }}</h1></div>
+            <div class="chi1"></div>
+            <div class="chi2"></div>
+            <div class="chi3"></div>
+            <div class="chi4"></div>
+            <div class="chi5"></div>
+            <div class="chi6"></div>
+            <div class="chi7"></div>
+        </div>
+
+    </section>
+    <footer>
+        <h1 class="infor">Information about the price of brand products on the site is for informational purposes only.
+            Prices
+            displayed may differ from actual <br> dealer prices. Contact your dealer for detailed information on the
+            current
+            prices of their products.</h1>
+        <div class="fon">
+            <h1 class="fo">+998950051507</h1>
+            <div class="img5">
+                <div class="gazalkent animate__animated animate__tada wow">
+                    <h1 class="av"></h1>
+                    <div class="a"></div>
+                    <div class="g"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ema"><h1 class="avt">avto_gazalkent@gmail.com</h1></div>
+        <div class="chi"></div>
+        <div class="icon">
+            <div class="tv"></div>
+            <div class="ins"></div>
+            <div class="tel"></div>
+            <div class="tik"></div>
+        </div>
+
+    </footer>
+</div>
+<script src="../static/js/wow.min.js"></script>
+<script src="../static/js/java.js"></script>
+</body>
+</html>

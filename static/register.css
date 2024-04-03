@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,375&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_bosh{
+    width: 2000px;
+    height: 938px;
+    background-color: #00103D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gazalkent {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.a {
+    width: 250px;
+    height: 130px;
+    background-image: url("../static/img/bHiG8sE7E0Y-removebg-preview 1.png");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.av {
+    width: 100px;
+    height: 40px;
+    left: -5px;
+    top: 15px;
+    position: absolute;
+    background-image: url("../static/img/Avto.png");
+    background-size: cover;
+}
+
+.g {
+    width: 180px;
+    height: 40px;
+    background-image: url("../static/img/Gazalkent.png");
+    background-size: cover;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+.login{
+    width: 500px;
+    height: 570px;
+    border-radius: 20px;
+    border: 2px yellow solid;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 4px yellow solid;
+    background-color: rgba(255, 255, 255, 0);
+    color: yellow;
+    font-size: 35px;
+    text-decoration: none;
+    position: relative;
+    font-family: Cambria;
+    transition: 1s;
+}
+.input::placeholder {
+    color: yellow;
+    font-family: Cambria;
+    font-size: 35px;
+    margin-top: 1px;
+    margin-left: 20px;
+    position: absolute;
+}
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 4px yellow solid;
+    font-family: Cambria;
+    font-size: 35px;
+    background-color: #00103D;
+    color: yellow;
+}
+.text{
+    font-size: 25px;
+    font-family: Calibri;
+    color: yellow;
+}
+.reg{
+    width: 60px;
+    height: 45px;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    background-image: url("../static/img/address-card-solid.svg");
+    background-size: cover;
+    border-radius: 7px;
+}

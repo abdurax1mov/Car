@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/brands_car.css">
+    <link rel="stylesheet" href="../static/animate/animate.min.css">
+</head>
+<body>
+<div class="body_bosh">
+    <nav>
+        <div class="nav">
+            <a href="{{ url_for("models") }}">
+                <div class="model">
+                    <h1 class="mo">Models</h1>
+                </div>
+            </a>
+            <a href="{{ url_for("cars77") }}">
+                <div class="model">
+                    <h1 class="mo">Cars</h1>
+                </div>
+            </a>
+
+            <div class="gazalkent animate__animated animate__tada wow">
+                <h1 class="av"></h1>
+                <div class="a"></div>
+                <div class="g"></div>
+            </div>
+            <a href="{{ url_for("dealers") }}">
+                <div class="model">
+                    <h1 class="mo">Dealers</h1>
+                </div>
+            </a>
+
+            <div class="avto">
+                <a href="{{ url_for("korzinka") }}">
+                    <div class="kor"></div>
+                </a>
+                <a href="{{ url_for("brand") }}">
+                    <div class="bren"></div>
+                </a>
+                <a href="{{ url_for("kobinet") }}">
+                    <div class="kab"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="car_bosh">
+            {% for car in brandes.cars %}
+                <div class="car animate__animated animate__flipInX wow">
+                    <form action="{{ url_for("add_product", cars_id=car.id,brands_id=brandes.id) }}" method="post" enctype="multipart/form-data">
+                        <div class="car_img"><img class="img" src="{{ car.img }}" alt=""></div>
+                        <h1 class="car_name">{{ car.name }}</h1>
+                        <h1 class="car_price">{{ car.price }} so'm</h1>
+                        <button class="button"></button>
+                    </form>
+                    {% if user.route == "admin" %}
+                        <a href="{{ url_for("delete", cars_id=car.id) }}">
+                            <button class="delete"></button>
+                        </a>
+                        <a href="{{ url_for("car_edit", cars_id=car.id) }}">
+                            <button class="car_edit"></button>
+                        </a>
+                    {% endif %}
+                </div>
+
+
+            {% endfor %}
+        </div>
+        <a href="{{ url_for("brand") }}">
+            <div class="x"></div>
+        </a>
+        {% if user.route =="admin" %}
+            <div class="add_car animate__animated animate__lightSpeedInRight wow">
+            </div>
+        {% endif %}
+
+        <div class="add_cra">
+            <div class="ico"></div>
+            <form class="div1" action="{{ url_for("add_car") }}" method="post" enctype="multipart/form-data">
+                <select class="input" name="brand_id" id="">
+                    {% for brand in brands %}
+                        <option class="op" value="{{ brand.id }}">{{ brand.name }}</option>
+                    {% endfor %}
+                </select>
+                <input class="input" type="file" placeholder="Car_img" name="img">
+                <input class="input" type="text" placeholder="Car_name" name="name7">
+                <input class="input" type="text" placeholder="Price" name="price">
+                <button class="send">Send</button>
+            </form>
+        </div>
+
+
+    </section>
+    <footer>
+        <h1 class="infor">Information about the price of brand products on the site is for informational purposes only.
+            Prices
+            displayed may differ from actual <br> dealer prices. Contact your dealer for detailed information on the
+            current
+            prices of their products.</h1>
+        <div class="fon">
+            <h1 class="fo">+998950051507</h1>
+            <div class="img5">
+                <div class="gazalkent animate__animated animate__tada wow">
+                    <h1 class="av"></h1>
+                    <div class="a"></div>
+                    <div class="g"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ema"><h1 class="avt">avto_gazalkent@gmail.com</h1></div>
+        <div class="chi"></div>
+        <div class="icon">
+            <div class="tv"></div>
+            <div class="ins"></div>
+            <div class="tel"></div>
+            <div class="tik"></div>
+        </div>
+
+    </footer>
+</div>
+<script src="../static/js/wow.min.js"></script>
+<script src="../static/js/java.js"></script>
+<script>
+    const add_car = document.querySelector(".add_car")
+    const add_ = document.querySelector(".add_cra")
+    const ico = document.querySelector(".ico")
+    add_car.addEventListener("click", () => {
+        add_.classList.toggle("add_fla")
+    })
+    ico.addEventListener("click", () => {
+        add_.classList.remove("add_fla")
+    })
+
+
+</script>
+</body>
+</html>

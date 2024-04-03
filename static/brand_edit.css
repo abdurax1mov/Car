@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    width: 1900px;
+    height: 955px;
+    background-image: url("../static/img/bmw-x7-edition-dark-shadow-stage-teaser.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ko1 {
+    width: 600px;
+    height: 650px;
+    border: 4px yellow solid;
+    border-radius: 20px;
+    background-color: rgba(0, 16, 61, 0.16);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    height: 650px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    border: 4px yellow solid;
+    border-radius: 20px;
+    background-color: rgba(0, 16, 61, 0.8);
+}
+
+img {
+    border-radius: 20px;
+}
+
+.text {
+    width: 300px;
+    height: 40px;
+    background-color: #00103D;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.bu {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.edit {
+    width: 150px;
+    height: 30px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    background-color: #00103D;
+    color: yellow;
+}
+
+.delete {
+    width: 150px;
+    height: 30px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+    background-color: #00103D;
+    color: red;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+}
+
+.x {
+    width: 35px;
+    height: 45px;
+    background-image: url("../static/img/xmark-solid.svg");
+    background-size: cover;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/korzinka.css">
+     <link rel="stylesheet" href="../static/animate/animate.min.css">
+</head>
+<body>
+<div class="body_bosh">
+    <nav>
+        <div class="nav">
+            <a href="{{ url_for("models") }}">
+                <div class="model">
+                    <h1 class="mo">Models</h1>
+                </div>
+            </a>
+            <a href="{{ url_for("cars77") }}">
+                <div class="model">
+                    <h1 class="mo">Cars</h1>
+                </div>
+            </a>
+
+            <div class="gazalkent animate__animated animate__tada">
+                <h1 class="av"></h1>
+                <div class="a"></div>
+                <div class="g"></div>
+            </div>
+            <a href="{{ url_for("dealers") }}">
+                <div class="model">
+                    <h1 class="mo">Dealers</h1>
+                </div>
+            </a>
+
+            <div class="avto">
+                <a href="{{ url_for("korzinka") }}">
+                    <div class="kor"></div>
+                </a>
+                <a href="{{ url_for("brand") }}">
+                    <div class="bren"></div>
+                </a>
+                <a href="{{ url_for("kobinet") }}">
+                    <div class="kab"></div>
+                </a>
+
+
+            </div>
+        </div>
+    </nav>
+    <section class="section12">
+        <h1 class="pu">Purchases</h1>
+        <div class="na12">
+            <div class="chiziq"></div>
+            <div class="na13">
+                <h1 class="user">Username</h1>
+                <h1 class="ct">Car img</h1>
+                <h1 class="cn">Car name</h1>
+                <h1 class="cp">Car price</h1>
+            </div>
+
+            <div class="chiziq1"></div>
+        </div>
+
+        <div class="kor_77 ">
+            {% for car in  cares %}
+                <div class="div animate__animated animate__fadeInTopLeft wow">
+                    <div class="name">{{ user.name }}</div>
+                    <div class="img"><img width="100%" height="100%" src="{{ car.product_img }}" alt=""></div>
+                    <div class="car_name">
+                        <div class="car_name1">{{ car.product_name }}</div>
+                    </div>
+                    <div class="pri">
+                        <h1 class="text">{{ car.product_price }} so'm</h1>
+                    </div>
+                    <a href="{{ url_for("add_delete" , cars_id=car.product_id) }}">
+                        <button class="x"></button>
+                    </a>
+
+                    <div class="chiziq2"></div>
+                </div>
+            {% endfor %}
+        {% if overall %}
+           <div class="over"><h1>{{ overall }} so'm</h1>
+                <a href="{{ url_for ("kor_del") }}">
+                    <button class="del"></button>
+                </a>
+            </div>
+        {% endif %}
+
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <h1 class="infor">Information about the price of brand products on the site is for informational purposes only.
+            Prices
+            displayed may differ from actual <br> dealer prices. Contact your dealer for detailed information on the
+            current
+            prices of their products.</h1>
+        <div class="fon">
+            <h1 class="fo">+998950051507</h1>
+            <div class="img5">
+                <div class="gazalkent animate__animated animate__tada wow">
+                    <h1 class="av"></h1>
+                    <div class="a"></div>
+                    <div class="g"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ema"><h1 class="avt">avto_gazalkent@gmail.com</h1></div>
+        <div class="chi"></div>
+        <div class="icon">
+            <div class="tv"></div>
+            <div class="ins"></div>
+            <div class="tel"></div>
+            <div class="tik"></div>
+        </div>
+    </footer>
+
+
+</div>
+<script src="../static/js/wow.min.js"></script>
+<script src="../static/js/java.js"></script>
+</body>
+</html>

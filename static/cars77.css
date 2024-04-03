@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,375&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body_bosh {
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav {
+    width: 100%;
+    height: 170px;
+    background-color: #00103D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.model {
+    width: 200px;
+    border: 2px yellow solid;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avto {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.kab {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/user-tie-solid.svg");
+    background-size: cover;
+}
+
+.kor {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/korzinka.svg");
+    background-size: cover;
+}
+
+.bren {
+    width: 50px;
+    height: 55px;
+    background-image: url("../static/img/brend.svg");
+    background-size: cover;
+}
+
+.gazalkent {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.a {
+    width: 250px;
+    height: 130px;
+    background-image: url("../static/img/bHiG8sE7E0Y-removebg-preview 1.png");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.av {
+    width: 100px;
+    height: 40px;
+    left: -5px;
+    top: 15px;
+    position: absolute;
+    background-image: url("../static/img/Avto.png");
+    background-size: cover;
+}
+
+.mo {
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
+.g {
+    width: 180px;
+    height: 40px;
+    background-image: url("../static/img/Gazalkent.png");
+    background-size: cover;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.infor {
+    color: yellow;
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: Cambria
+}
+
+.fon {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/phone-solid.svg");
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+
+.fo {
+    color: yellow;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -2px;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+.ema {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/emal.svg");
+    background-size: cover;
+    right: 470px;
+    top: 250px;
+}
+
+.avt {
+    color: yellow;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.chi {
+    width: 1500px;
+    height: 2px;
+    position: absolute;
+    margin-left: 200px;
+    bottom: 80px;
+    background-color: yellow;
+}
+
+.icon {
+    width: 350px;
+    height: 58px;
+    position: absolute;
+    bottom: 15px;
+    margin-left: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tv {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/twitter.svg");
+    background-size: cover;
+}
+
+.ins {
+    width: 50px;
+    height: 55px;
+    background-image: url("../static/img/instagram.svg");
+    background-size: cover;
+}
+
+.tik {
+    width: 50px;
+    height: 57px;
+    background-image: url("../static/img/tiktok.svg");
+    background-size: cover;
+}
+
+.tel {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/telegram.svg");
+    background-size: cover;
+}
+
+.section1 {
+    width: 1900px;
+    height: 1000px;
+    background-image: url("../static/img/bnww.gif");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../static/img/bmw-icon-2048x2048-dc4avuli.png");
+    background-size: cover;
+}
+
+.img2 {
+    width: 500px;
+    height: 200px;
+    background-image: url("../static/img/ChevBow_Sig98-removebg-preview.png");
+    background-size: cover;
+}
+
+.img3 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../static/img/mers icon.png");
+    background-size: cover;
+}
+
+.img4 {
+    width: 500px;
+    height: 300px;
+    background-image: url("../static/img/kia-missingImage-removebg-preview.png");
+    background-size: cover;
+}
+
+.section2 {
+    width: 1900px;
+    height: 3300px;
+    background-color: #00103D;
+}
+
+.icons {
+    width: 500px;
+    height: 300px;
+    background-image: url("../static/img/kia-missingImage-removebg-preview.png");
+    background-size: cover;
+    margin-left: 150px;
+}
+
+.kia {
+    color: yellow;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    margin-top: -210px;
+    margin-left: 750px;
+}
+
+.img_bosh {
+    width: 1900px;
+    height: 570px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.car {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px yellow solid;
+}
+.car:hover{
+    border: 2px white dashed;
+}
+
+.kia_img1 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/article-original (4).png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.kia_img2 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/article-original (3).png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.kia_img3 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/article-original (1).png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.text_kia {
+    color: yellow;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.kor_img {
+    width: 50px;
+    height: 50px;
+    background-image: url("../static/img/korzinka.svg");
+    background-size: cover;
+    margin-left: 410px;
+    margin-top: -55px;
+}
+
+.bnw {
+    color: yellow;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.icon_bnw {
+    width: 200px;
+    height: 200px;
+    background-image: url("../static/img/bmw-icon-2048x2048-dc4avuli.png");
+    background-size: cover;
+    margin-left: 1400px;
+    margin-top: -150px;
+}
+
+.bnw_img1 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/bnw.png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.bnw_img2 {
+    width: 460px;
+    height: 280px;
+    background-image: url("../static/img/bmw-i7-m70-xdriv_01-removebg-preview.png");
+    background-size: cover;
+}
+
+.bnw_img3 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/bnw2.png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.chevrolet {
+    width: 500px;
+    height: 200px;
+    background-image: url("../static/img/ChevBow_Sig98-removebg-preview.png");
+    background-size: cover;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.chev_img1 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/onex.png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.chev_img2 {
+    width: 500px;
+    height: 250px;
+    background-image: url("../static/img/chevrolet trek.png");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.chev_img3 {
+    width: 410px;
+    height: 250px;
+    background-image: url("../static/img/monza.png");
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.mers {
+    color: yellow;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.icon_mers {
+    width: 200px;
+    height: 200px;
+    background-image: url("../static/img/mers icon.png");
+    background-size: cover;
+    margin-left: 1500px;
+    margin-top: -150px;
+}
+a{
+    text-decoration: none;
+}
+.mers_img1 {
+    width: 500px;
+    height: 400px;
+    background-image: url("../static/img/mercedes-benz_s-class_777626-removebg-preview.png");
+    background-size: cover;
+    margin-top: -120px;
+}
+
+.mers_img2 {
+    width: 450px;
+    height: 250px;
+    background-image: url("../static/img/QIP_Shot_-_Screen_178-removebg-preview.png");
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.mers_img3 {
+    width: 450px;
+    height: 250px;
+    background-image: url("../static/img/g--class.png");
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 10px;
+}

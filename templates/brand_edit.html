@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/brand_edit.css">
+    <link rel="stylesheet" href="../static/animate/animate.min.css">
+</head>
+<body>
+<div class="body_bosh">
+
+    <section class="section1">
+
+        <div class="ko1 animate__animated animate__zoomInUp wow">
+            <a href="{{ url_for("brand") }}">
+                <div class="x"></div>
+            </a>
+            <form class="form" action="{{ url_for("brand_edit", brand_id=brand.id) }}" method="post"
+                  enctype="multipart/form-data">
+                <div class="chi1"></div>
+                <div class="img">
+                    <img width="100%" height="100%" src="{{ brand.img }}" alt="">
+                </div>
+                <input class="text" type="text" name="name" value="{{ brand.name }}">
+                <input class="text" type="file" name="photo7" value="{{ brand.img }}">
+                <div class="bu">
+                    <a href="{{ url_for("brand_edit", brand_id=brand.id) }}">
+                        <button class="edit">Edit</button>
+                    </a>
+                </div>
+            </form>
+            <a href="{{ url_for("brand_delete", brand_id=brand.id) }}" methods="post">
+                <button class="delete">Delete</button>
+            </a>
+        </div>
+
+
+    </section>
+</div>
+<script src="../static/js/wow.min.js"></script>
+<script src="../static/js/script.js"></script>
+</body>
+</html>
